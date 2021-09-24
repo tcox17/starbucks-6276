@@ -2,13 +2,38 @@
 This is the term project for DSBA 6276. In this project, we'll use simulated Starbucks data to explore the relationship betweeen offer characteristics and customer demographics. 
 
 ## File Directory
-- archive(3).zip: original datasources in zip format
-- Initial Analysis and Preprocessing.ipynb: Initial data loading & preprocessing.
-- offers_transformed: one row for every offer for every person. If converted into transaction, transaction information is included.
-- portfolio_transformed: one row for every unique offer.
-- transactions_transformed: one row for every transactions (including ones unrelated to offers)
-- profile_transformed: customer demographics data (NA's dropped)
-
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks.
+│
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures        <- Generated graphics and figures to be used in reporting
+│
+├── setup.py           <- Make this project pip installable with `pip install -e`
+├── src                <- Source code for use in this project.
+│   ├── __init__.py    <- Makes src a Python module
+│   │
+│   ├── data           <- Scripts to download or generate data
+│   │   └── make_dataset.py
+│   │
+│   ├── features       <- Scripts to turn raw data into features for modeling
+│   │   └── build_features.py
+│   │
+│   ├── models         <- Scripts to train models and then use trained models to make
+│   │   │                 predictions
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   │
+│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+│       └── visualize.py
 
 ### Potential Project Exploration Topics include:
 - Exploratory Data Analysis
