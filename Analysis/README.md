@@ -1,5 +1,5 @@
 Data Analysis completed includes:
 
-Exploratory Data Analysis
-Logistic Regression
-Linear Discriminant Analysis
+- Exploratory Data Analysis
+- Logistic Regression
+- Linear Discriminant Analysis
