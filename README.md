@@ -1,10 +1,13 @@
 # Consumer Analytics Term Project (DSBA 6276)
-This is the term project for DSBA 6276. In this project, we'll use simulated Starbucks data to explore the relationship betweeen offer characteristics and customer demographics. 
+**Team Members:** Taylor Cox, Connor Derrick, Elijah Ellison, Forrest Johnson, and Mitchell Jones
+This is the term project for Consumer Analytics (DSBA 6276) at UNC Charlotte. 
+
+In this project, we'll use simulated Starbucks data to explore the relationship betweeen offer characteristics and customer demographics. 
 
 ### Potential Project Exploration Topics include:
 - Exploratory Data Analysis
 - Preprocessing Techniques
-- Clustering
 - Regression
 - Classification
-- Discriminant Analysis & PCA
+- KMeans CLustering
+- Linear Discriminant Analysis
