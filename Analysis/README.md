@@ -5,3 +5,4 @@ Data Analysis completed includes:
   - Completed in both R and Python
 - KMeans Clustering
 - Linear Discriminant Analysis
+  - Completed in both R and Python
